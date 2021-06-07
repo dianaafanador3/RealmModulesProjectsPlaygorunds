@@ -1,4 +1,0 @@
-module SyncClient {
-    umbrella "/Users/diana.perez/Documents/Support/ModuleSampleWorkspace copy/RealmModulesPlayground/ModuleSample/.build/checkouts/realm-core/src/realm/sync"
-    export *
-}

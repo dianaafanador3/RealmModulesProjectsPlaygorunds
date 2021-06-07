@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "ModuleSampleDB::SwiftPMPackageDescription"
-               BuildableName = "ModuleSampleDBPackageDescription"
-               BlueprintName = "ModuleSampleDBPackageDescription"
-               ReferencedContainer = "container:ModuleSampleDB.xcodeproj">
+               BlueprintIdentifier = "A7A0AD22659377F4FF37AA662358470D"
+               BuildableName = "Pods_ModuleSampleAppClean.framework"
+               BlueprintName = "Pods-ModuleSampleAppClean"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -50,10 +50,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ModuleSampleDB::SwiftPMPackageDescription"
-            BuildableName = "ModuleSampleDBPackageDescription"
-            BlueprintName = "ModuleSampleDBPackageDescription"
-            ReferencedContainer = "container:ModuleSampleDB.xcodeproj">
+            BlueprintIdentifier = "A7A0AD22659377F4FF37AA662358470D"
+            BuildableName = "Pods_ModuleSampleAppClean.framework"
+            BlueprintName = "Pods-ModuleSampleAppClean"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

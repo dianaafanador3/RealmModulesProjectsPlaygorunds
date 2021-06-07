@@ -1,4 +1,0 @@
-module Bid {
-    umbrella "/Users/diana.perez/Documents/Support/ModuleSampleWorkspace copy/RealmModulesPlayground/ModuleSampleDB/.build/checkouts/realm-core/src/external/IntelRDFPMathLib20U2/LIBRARY/src"
-    export *
-}
