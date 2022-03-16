@@ -1,25 +1,41 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "Realm",
-        "repositoryURL": "https://github.com/realm/realm-cocoa",
-        "state": {
-          "branch": null,
-          "revision": "7e5c77fd7fbb30259e8e6e6a41f32289f72e0812",
-          "version": "10.7.6"
-        }
-      },
-      {
-        "package": "RealmDatabase",
-        "repositoryURL": "https://github.com/realm/realm-core",
-        "state": {
-          "branch": null,
-          "revision": "018adb3469c2882904febca251778129ef4a9b70",
-          "version": "10.7.2"
-        }
+  "pins" : [
+    {
+      "identity" : "modulesample",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/dianaafanador3/ModuleSample.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "c5eca14a3910ff0509e577dc13ed7e5254b7516a"
       }
-    ]
-  },
-  "version": 1
+    },
+    {
+      "identity" : "modulesampledb",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/dianaafanador3/ModuleSampleDB",
+      "state" : {
+        "branch" : "master",
+        "revision" : "9551415cf1211d0132b4526738c1628702054d54"
+      }
+    },
+    {
+      "identity" : "realm-core",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/realm/realm-core",
+      "state" : {
+        "revision" : "e9eec444d13ebebc062202407e79b9833428a24e",
+        "version" : "11.11.0"
+      }
+    },
+    {
+      "identity" : "realm-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/realm/realm-swift",
+      "state" : {
+        "revision" : "11ef7d31e3f3668c7434c5fd129a85ca52740b24",
+        "version" : "10.24.1"
+      }
+    }
+  ],
+  "version" : 2
 }

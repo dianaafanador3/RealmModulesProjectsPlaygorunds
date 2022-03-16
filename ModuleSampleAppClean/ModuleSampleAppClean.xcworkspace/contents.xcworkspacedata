@@ -5,12 +5,6 @@
       location = "group:ModuleSampleAppClean.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:../ModuleSample/ModuleSample.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:../ModuleSampleDB/ModuleSampleDB.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>

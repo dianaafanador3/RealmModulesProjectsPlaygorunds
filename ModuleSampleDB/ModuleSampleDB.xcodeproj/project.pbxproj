@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AC4F22B7266A2E7E00501F0D /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = AC4F22B6266A2E7E00501F0D /* Realm */; };
-		AC4F22B9266A2E7E00501F0D /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AC4F22B8266A2E7E00501F0D /* RealmSwift */; };
+		AC1CCDE3276A29F80089C3F2 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = AC1CCDE2276A29F80089C3F2 /* Realm */; };
+		AC1CCDE5276A29F80089C3F2 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AC1CCDE4276A29F80089C3F2 /* RealmSwift */; };
 		OBJ_505 /* ModuleSampleDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* ModuleSampleDB.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC962BB927E25F6500FF63F9 /* realm-cocoa */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "realm-cocoa"; path = "../realm-cocoa"; sourceTree = "<group>"; };
 		"ModuleSampleDB::ModuleSampleDB::Product" /* ModuleSampleDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ModuleSampleDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_12 /* ModuleSampleDBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleSampleDBTests.swift; sourceTree = "<group>"; };
 		OBJ_479 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -24,14 +25,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				AC4F22B9266A2E7E00501F0D /* RealmSwift in Frameworks */,
-				AC4F22B7266A2E7E00501F0D /* Realm in Frameworks */,
+				AC1CCDE5276A29F80089C3F2 /* RealmSwift in Frameworks */,
+				AC1CCDE3276A29F80089C3F2 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		488D0DB727443645000A698C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC962BB927E25F6500FF63F9 /* realm-cocoa */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		OBJ_10 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +73,7 @@
 				OBJ_10 /* Tests */,
 				OBJ_470 /* Products */,
 				OBJ_479 /* README.md */,
+				488D0DB727443645000A698C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,8 +110,8 @@
 			);
 			name = ModuleSampleDB;
 			packageProductDependencies = (
-				AC4F22B6266A2E7E00501F0D /* Realm */,
-				AC4F22B8266A2E7E00501F0D /* RealmSwift */,
+				AC1CCDE2276A29F80089C3F2 /* Realm */,
+				AC1CCDE4276A29F80089C3F2 /* RealmSwift */,
 			);
 			productName = ModuleSampleDB;
 			productReference = "ModuleSampleDB::ModuleSampleDB::Product" /* ModuleSampleDB.framework */;
@@ -125,7 +135,7 @@
 			);
 			mainGroup = OBJ_5;
 			packageReferences = (
-				AC4F22A22667B37800501F0D /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+				AC1CCDE1276A29F80089C3F2 /* XCRemoteSwiftPackageReference "realm-cocoa" */,
 			);
 			productRefGroup = OBJ_470 /* Products */;
 			projectDirPath = "";
@@ -294,25 +304,25 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		AC4F22A22667B37800501F0D /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+		AC1CCDE1276A29F80089C3F2 /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/realm/realm-cocoa";
+			repositoryURL = "https://github.com/realm/realm-cocoa.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 10.7.6;
+				minimumVersion = 10.20.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		AC4F22B6266A2E7E00501F0D /* Realm */ = {
+		AC1CCDE2276A29F80089C3F2 /* Realm */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = AC4F22A22667B37800501F0D /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			package = AC1CCDE1276A29F80089C3F2 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
 			productName = Realm;
 		};
-		AC4F22B8266A2E7E00501F0D /* RealmSwift */ = {
+		AC1CCDE4276A29F80089C3F2 /* RealmSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = AC4F22A22667B37800501F0D /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			package = AC1CCDE1276A29F80089C3F2 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
 			productName = RealmSwift;
 		};
 /* End XCSwiftPackageProductDependency section */

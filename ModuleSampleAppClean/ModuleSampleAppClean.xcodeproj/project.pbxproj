@@ -12,28 +12,11 @@
 		AC4F22F0266A6C8600501F0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4F22EF266A6C8600501F0D /* ContentView.swift */; };
 		AC4F22F2266A6C8700501F0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC4F22F1266A6C8700501F0D /* Assets.xcassets */; };
 		AC4F22F5266A6C8700501F0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC4F22F4266A6C8700501F0D /* Preview Assets.xcassets */; };
-		AC4F22FF266A6D4100501F0D /* ModuleSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC4F22FD266A6D4100501F0D /* ModuleSample.framework */; };
-		AC4F2300266A6D4100501F0D /* ModuleSample.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AC4F22FD266A6D4100501F0D /* ModuleSample.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		AC4F2301266A6D4100501F0D /* ModuleSampleDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC4F22FE266A6D4100501F0D /* ModuleSampleDB.framework */; };
-		AC4F2302266A6D4100501F0D /* ModuleSampleDB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AC4F22FE266A6D4100501F0D /* ModuleSampleDB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		AC4F2306266A6F0100501F0D /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = AC4F2305266A6F0100501F0D /* SwiftPackageProductDependency */; };
-		AC4F2308266A6F0100501F0D /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = AC4F2307266A6F0100501F0D /* SwiftPackageProductDependency */; };
+		AC962BFE27E2A38700FF63F9 /* ModuleSample in Frameworks */ = {isa = PBXBuildFile; productRef = AC962BFD27E2A38700FF63F9 /* ModuleSample */; };
+		AC962C0027E2A38700FF63F9 /* ModuleSampleDB in Frameworks */ = {isa = PBXBuildFile; productRef = AC962BFF27E2A38700FF63F9 /* ModuleSampleDB */; };
+		AC962C0227E2A38700FF63F9 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = AC962C0127E2A38700FF63F9 /* Realm */; };
+		AC962C0427E2A38700FF63F9 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AC962C0327E2A38700FF63F9 /* RealmSwift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		AC4F2303266A6D4100501F0D /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				AC4F2302266A6D4100501F0D /* ModuleSampleDB.framework in Embed Frameworks */,
-				AC4F2300266A6D4100501F0D /* ModuleSample.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		5288C2FA8C774BFCC5507E6D /* Pods-ModuleSampleAppClean.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleSampleAppClean.debug.xcconfig"; path = "Target Support Files/Pods-ModuleSampleAppClean/Pods-ModuleSampleAppClean.debug.xcconfig"; sourceTree = "<group>"; };
@@ -46,6 +29,7 @@
 		AC4F22F6266A6C8700501F0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC4F22FD266A6D4100501F0D /* ModuleSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ModuleSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC4F22FE266A6D4100501F0D /* ModuleSampleDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ModuleSampleDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC962BB727E25F2700FF63F9 /* realm-cocoa */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "realm-cocoa"; path = "../realm-cocoa"; sourceTree = "<group>"; };
 		E46C8E1E6500EA6FB8D4B81D /* Pods_ModuleSampleAppClean.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ModuleSampleAppClean.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -54,11 +38,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC4F2308266A6F0100501F0D /* BuildFile in Frameworks */,
-				AC4F2306266A6F0100501F0D /* BuildFile in Frameworks */,
-				AC4F2301266A6D4100501F0D /* ModuleSampleDB.framework in Frameworks */,
-				AC4F22FF266A6D4100501F0D /* ModuleSample.framework in Frameworks */,
+				AC962BFE27E2A38700FF63F9 /* ModuleSample in Frameworks */,
 				73E77F0ADCEE8A5E2AF83DAB /* Pods_ModuleSampleAppClean.framework in Frameworks */,
+				AC962C0227E2A38700FF63F9 /* Realm in Frameworks */,
+				AC962C0427E2A38700FF63F9 /* RealmSwift in Frameworks */,
+				AC962C0027E2A38700FF63F9 /* ModuleSampleDB in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +90,7 @@
 		AC4F22FC266A6D4100501F0D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AC962BB727E25F2700FF63F9 /* realm-cocoa */,
 				AC4F22FD266A6D4100501F0D /* ModuleSample.framework */,
 				AC4F22FE266A6D4100501F0D /* ModuleSampleDB.framework */,
 				E46C8E1E6500EA6FB8D4B81D /* Pods_ModuleSampleAppClean.framework */,
@@ -119,7 +104,6 @@
 				5288C2FA8C774BFCC5507E6D /* Pods-ModuleSampleAppClean.debug.xcconfig */,
 				9F330B53FA3CD1ECE4EE84CA /* Pods-ModuleSampleAppClean.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -134,7 +118,6 @@
 				AC4F22E6266A6C8600501F0D /* Sources */,
 				AC4F22E7266A6C8600501F0D /* Frameworks */,
 				AC4F22E8266A6C8600501F0D /* Resources */,
-				AC4F2303266A6D4100501F0D /* Embed Frameworks */,
 				A4CE98D80D9DB27580CF0383 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
@@ -143,8 +126,10 @@
 			);
 			name = ModuleSampleAppClean;
 			packageProductDependencies = (
-				AC4F2305266A6F0100501F0D /* SwiftPackageProductDependency */,
-				AC4F2307266A6F0100501F0D /* SwiftPackageProductDependency */,
+				AC962BFD27E2A38700FF63F9 /* ModuleSample */,
+				AC962BFF27E2A38700FF63F9 /* ModuleSampleDB */,
+				AC962C0127E2A38700FF63F9 /* Realm */,
+				AC962C0327E2A38700FF63F9 /* RealmSwift */,
 			);
 			productName = ModuleSampleAppClean;
 			productReference = AC4F22EA266A6C8600501F0D /* ModuleSampleAppClean.app */;
@@ -174,7 +159,9 @@
 			);
 			mainGroup = AC4F22E1266A6C8600501F0D;
 			packageReferences = (
-				AC4F2304266A6F0100501F0D /* RemoteSwiftPackageReference */,
+				AC962BFA27E29FB900FF63F9 /* XCRemoteSwiftPackageReference "ModuleSample" */,
+				AC962BFB27E2A01700FF63F9 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				AC962BFC27E2A10D00FF63F9 /* XCRemoteSwiftPackageReference "ModuleSampleDB" */,
 			);
 			productRefGroup = AC4F22EB266A6C8600501F0D /* Products */;
 			projectDirPath = "";
@@ -376,6 +363,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ModuleSampleAppClean/Preview Content\"";
+				DEVELOPMENT_TEAM = QX5CR2FTN2;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ModuleSampleAppClean/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -398,6 +386,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ModuleSampleAppClean/Preview Content\"";
+				DEVELOPMENT_TEAM = QX5CR2FTN2;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ModuleSampleAppClean/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -436,25 +425,47 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		AC4F2304266A6F0100501F0D /* RemoteSwiftPackageReference */ = {
+		AC962BFA27E29FB900FF63F9 /* XCRemoteSwiftPackageReference "ModuleSample" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/realm/realm-cocoa";
+			repositoryURL = "https://github.com/dianaafanador3/ModuleSample.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 10.7.6;
+				branch = master;
+				kind = branch;
+			};
+		};
+		AC962BFB27E2A01700FF63F9 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				kind = exactVersion;
+				version = 10.24.1;
+			};
+		};
+		AC962BFC27E2A10D00FF63F9 /* XCRemoteSwiftPackageReference "ModuleSampleDB" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dianaafanador3/ModuleSampleDB";
+			requirement = {
+				branch = master;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		AC4F2305266A6F0100501F0D /* SwiftPackageProductDependency */ = {
+		AC962BFD27E2A38700FF63F9 /* ModuleSample */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = AC4F2304266A6F0100501F0D /* RemoteSwiftPackageReference */;
+			productName = ModuleSample;
+		};
+		AC962BFF27E2A38700FF63F9 /* ModuleSampleDB */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ModuleSampleDB;
+		};
+		AC962C0127E2A38700FF63F9 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
 			productName = Realm;
 		};
-		AC4F2307266A6F0100501F0D /* SwiftPackageProductDependency */ = {
+		AC962C0327E2A38700FF63F9 /* RealmSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = AC4F2304266A6F0100501F0D /* RemoteSwiftPackageReference */;
 			productName = RealmSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
